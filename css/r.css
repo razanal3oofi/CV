@@ -19,7 +19,8 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 100px;
+	/*padding: 5px 100px;*/
+	padding: 10px 200px;
 } 
 
 .logo{
@@ -29,16 +30,19 @@ header{
 	font-weight: 700;
 	font-size: 1.8em;
 }
+
 .B a{
 	color: #FF69B4 ;
 	text-decoration: none;
 	font-size: 1.1em;
 	font-weight: 500;
-	padding-left: 30px ;
+	padding-left: 30px;
 }
 .B a:hover{
 	color: #000000 ;
+
 }
+
 
 
 nav{
@@ -79,7 +83,7 @@ section{
 
 .main-btn{
 	color: #FAEBD7;
-	background-color: #FF69B4 ;
+	background-color: #C71585   ;
 	text-decoration: none;
 	font-size: 1.1em;
 	font-weight: 600;
@@ -91,7 +95,7 @@ section{
     transition: 0.7s ease;
 }
 .main-btn:hover{
-	background-color: #C71585;
+	background-color:#FF1493;
 	transform: scale(1.1);
 
 }
@@ -132,4 +136,45 @@ section{
 .info{
 	font-size: 1.2em;
 	font-weight: 200;
+}
+
+@media (max-width:1023px){
+	header{
+	padding:  12px 20px;	
+	}
+
+	
+	.B a{
+		padding-left: 10px;
+		
+	}
+	.title{
+		font-size: 1.84m;
+
+	section{
+		padding: 80px 20px;
+	}
+     
+    .content{
+    	flex-direction: column;
+    	align-items: center;
+    }
+ 
+  
+}
+
+@media (max-width:641px){
+
+	body{
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width:300px){
+
+	body{
+		font-size: 10px;
+	}
+	
 }
