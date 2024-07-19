@@ -11,8 +11,6 @@
 }
 
 
-
-
 header{
 	background-color: #f0f0f0;
 	width: 100%;
@@ -23,11 +21,7 @@ header{
 	align-items: center;
 	/*padding: 5px 100px;*/
 	padding: 10px 200px;
-
-
-}  
-
-
+} 
 
 .logo{
 	text-decoration: none;
@@ -36,9 +30,6 @@ header{
 	font-weight: 700;
 	font-size: 1.8em;
 }
-
-
-
 
 .B a{
 	color: #FF69B4 ;
@@ -53,12 +44,6 @@ header{
 }
 
 
-nav ul{
-	flex: 1;
-	text-align: right;
-}
-
-
 
 nav{
 	
@@ -66,7 +51,6 @@ nav{
 	justify-content: space-around;
 	align-items: botttum;
 	margin: auto;
-
 }
 
 .A1{
@@ -152,45 +136,4 @@ section{
 .info{
 	font-size: 1.2em;
 	font-weight: 200;
-}
-
-@media (max-width:1023px){
-	header{
-	padding:  12px 20px;	
-	}
-
-	
-	.B a{
-		padding-left: 10px;
-		
-	}
-	.title{
-		font-size: 1.84m;
-
-	section{
-		padding: 80px 20px;
-	}
-     
-    .content{
-    	flex-direction: column;
-    	align-items: center;
-    }
- 
-  
-}
-
-@media (max-width:641px){
-
-	body{
-		font-size: 12px;
-	}
-
-}
-
-@media (max-width:300px){
-
-	body{
-		font-size: 10px;
-	}
-	
 }
