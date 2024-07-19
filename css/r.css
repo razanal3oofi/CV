@@ -11,6 +11,8 @@
 }
 
 
+
+
 header{
 	background-color: #f0f0f0;
 	width: 100%;
@@ -21,7 +23,11 @@ header{
 	align-items: center;
 	/*padding: 5px 100px;*/
 	padding: 10px 200px;
-} 
+
+
+}  
+
+
 
 .logo{
 	text-decoration: none;
@@ -30,6 +36,9 @@ header{
 	font-weight: 700;
 	font-size: 1.8em;
 }
+
+
+
 
 .B a{
 	color: #FF69B4 ;
@@ -44,6 +53,12 @@ header{
 }
 
 
+nav ul{
+	flex: 1;
+	text-align: right;
+}
+
+
 
 nav{
 	
@@ -51,6 +66,7 @@ nav{
 	justify-content: space-around;
 	align-items: botttum;
 	margin: auto;
+
 }
 
 .A1{
