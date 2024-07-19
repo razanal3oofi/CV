@@ -11,6 +11,21 @@
 }
 
 
+
+
+
+.content {
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+        border: 2px solid #FFB6C1;
+
+}
+
+
+
 header{
 	background-color: #f0f0f0;
 	width: 100%;
